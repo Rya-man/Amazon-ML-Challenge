@@ -16,7 +16,7 @@ with open(outputfile, 'w') as file:
     num_images = 131288 # Set this to the actual total number of images you have
     
     # Iterate over all the images in numerical order
-    for i in range(0,num_images):
+    for i in range(10047,num_images):
         img_file = f"{i}.jpg"  # Generate the image filename
         img_path = os.path.join(image_folder, img_file)
         
